@@ -124,6 +124,8 @@ namespace CGL {
     // Fill a pixel, which may contain multiple samples
     void fill_pixel(size_t x, size_t y, Color c);
 
+    void RasterizerImp::super_sample_fill_pixel(float x, float y, int bias, Color c);
+
     // This function sets the framebuffer target.  The block of memory
     // for the framebuffer contains 3 * width * height values for an RGB
     // pixel framebuffer with 8-bits per color channel.
