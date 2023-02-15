@@ -322,4 +322,5 @@ namespace CGL {
     Rasterizer::~Rasterizer() { }
 
 
+
 }// CGL
